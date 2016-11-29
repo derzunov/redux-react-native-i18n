@@ -4,7 +4,7 @@
 [![npm](https://img.shields.io/npm/dt/redux-react-native-i18n.svg)](https://www.npmjs.com/package/redux-react-native-i18n)
 [![npm](https://img.shields.io/npm/v/redux-react-native-i18n.svg)](https://www.npmjs.com/package/redux-react-native-i18n)
 
-An i18n solution for **React Native** apps on Redux
+An **i18n** solution with **plural forms** support for **React Native** apps on Redux
 
 <img alt="React Native Logo" src="https://raw.githubusercontent.com/derzunov/redux-react-native-i18n/master/react-native-logo.jpg" width="100%" />
 
