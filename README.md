@@ -26,7 +26,7 @@ This package provides functionality of [redux-react-i18n](https://github.com/der
 - Ukrainian ( uk )
 - ...
 
-## Example Demo
+## Example Web Demo
 
 [derzunov.github.io/redux-react-i18n](https://derzunov.github.io/redux-react-i18n/)
 
@@ -60,7 +60,7 @@ npm i redux-react-native-i18n
 ## What's in the box
 
 ### Components:
- - Loc ( Container Component )
+ - **Loc ( Container Component )**
  - LocPresentational ( Presentational Component )
 
 ### Actions
@@ -73,7 +73,7 @@ npm i redux-react-native-i18n
  - i18n
 
 
-## Full code demo ( complete solution for Redux ):
+## Full code demo ( complete solution ):
 ```jsx
 import { i18nReducer, i18nActions, Loc } from 'redux-react-native-i18n'
 
@@ -146,7 +146,7 @@ import { Loc } from 'redux-react-native-i18n'
 
 ```jsx
 // Just import presentational component LocPresentational
-import { LocPresentational } from 'redux-react-i18n'
+import { LocPresentational } from 'redux-react-native-i18n'
 ...
 ...
 ...
