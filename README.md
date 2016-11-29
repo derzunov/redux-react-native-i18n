@@ -1,13 +1,13 @@
 # redux-react-native-i18n
 An i18n solution for **React Native** apps on Redux
 
-<img alt="React Native Logo" src="https://github.com/derzunov/redux-react-native-i18n/blob/master/react-native-logo.jpg" width="100%" />
+![React Native Logo](https://github.com/derzunov/redux-react-native-i18n/blob/master/react-native-logo.jpg )
 
 This package provides functionality of [redux-react-i18n](https://github.com/derzunov/redux-react-i18n) to React Native
 
 ## Workers of all countries, unite!
 
-<img alt="Workers of all countries, unite!" src="https://github.com/derzunov/redux-react-i18n/blob/master/i18n-logo.jpg" width="100%" />
+![Workers of all countries, unite!]( https://github.com/derzunov/redux-react-i18n/blob/master/i18n-logo.jpg )
 
 ### Supported languages list with expected codes for pluralize mechanics switching
 - Russian ( ru, ru-RU )
