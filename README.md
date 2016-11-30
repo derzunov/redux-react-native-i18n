@@ -59,6 +59,8 @@ This package provides functionality of [redux-react-i18n](https://github.com/der
 redux-react-i18n: ( [github](https://github.com/derzunov/redux-react-i18n) or [npm](https://www.npmjs.com/package/redux-react-i18n) ) 
 
 ## Install:
+***You need react-native to be installed!***
+
 Terminal:
 ```
 npm i redux-react-native-i18n
