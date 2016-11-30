@@ -1,7 +1,7 @@
-import i18nActions from 'redux-react-i18n'
+import { i18nActions } from 'redux-react-i18n'
 export { i18nActions }
 
-import i18nReducer from 'redux-react-i18n'
+import { i18nReducer } from 'redux-react-i18n'
 export { i18nReducer }
 
 // You can use the complete scheme of store/reducers/actions proposed by author
