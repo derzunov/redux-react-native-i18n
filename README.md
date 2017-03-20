@@ -40,14 +40,14 @@ This package provides functionality of [redux-react-i18n](https://github.com/der
 
 ## Short code demo
 
-####Write ( jsx ):
+#### Write ( jsx ):
 ```jsx
 <Loc locKey="your_key_1"/>
 <Loc locKey="your_key_2" number={1}/>
 <Loc locKey="your_key_2" number={2}/>
 <Loc locKey="your_key_2" number={5}/>
 ```
-####Result ( html ):
+#### Result ( html ):
 ```html
 <Text>Перевод вашего первого ключа из словаря для текущего языка</Text>
 <Text>Пришла 1 кошечка</Text>
