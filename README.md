@@ -59,7 +59,7 @@ This package provides functionality of [redux-react-i18n](https://github.com/der
 ```
 
 ### What am I using:
-redux-react-i18n: ( [github](https://github.com/derzunov/redux-react-i18n) or [npm](https://www.npmjs.com/package/redux-react-i18n) ) 
+redux-react-i18n: ( [github](https://github.com/derzunov/redux-react-i18n) or [npm](https://www.npmjs.com/package/redux-react-i18n) )
 
 ## Install:
 ***You need react-native to be installed!***
@@ -99,7 +99,7 @@ const store = createStore( combineReducers( reducers ) )
 ...
 // Set dictionaries (simpliest exapmple) -----------------------------------------------------------------------------------------------
 
-// This dictionaries can be supported by Localization team without need to know somth about interface or project, 
+// This dictionaries can be supported by Localization team without need to know somth about interface or project,
 // and you just can fetch it to your project
 const dictionaries = {
     'ru-RU': {
@@ -136,7 +136,7 @@ store.dispatch( i18nActions.setLanguages( languages ) )
 // / Set languages (simpliest exapmple) ------------------------------------------------------------------------------------------------
 
 // Set current language code (you can map this action to select component or somth like this)
-store.dispatch( i18nActions.setCurrent( 'ru-RU' ) )
+store.dispatch( i18nActions.setCurrentLanguage( 'ru-RU' ) )
 ```
 
 #### And now you can use "Loc" container component
