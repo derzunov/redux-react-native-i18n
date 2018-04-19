@@ -1,6 +1,6 @@
 {
   "name": "redux-react-native-i18n",
-  "version": "1.2.0",
+  "version": "1.1.0",
   "description": "An i18n solution with plural forms support for React Native apps on Redux",
   "main": "lib/index.js",
   "scripts": {
