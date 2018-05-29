@@ -7,11 +7,16 @@
 
 [![Package Quality](http://npm.packagequality.com/badge/redux-react-native-i18n.png)](http://packagequality.com/#?package=redux-react-native-i18n)
 
-An **i18n** solution with **plural forms** support for **React Native** apps on Redux
+An **i18n** solution with **plural forms** support for **React Native** apps on Redux.
+
+This package provides functionality of [redux-react-i18n](https://github.com/derzunov/redux-react-i18n) to React Native.
+The difference between this package and [redux-react-i18n](https://github.com/derzunov/redux-react-i18n) is in presentational component and its container. ```<Loc/>``` from this package uses ```<Text> ``` from ```'react-native'``` instead of ```<span>```.
 
 <img alt="React Native Logo" src="https://raw.githubusercontent.com/derzunov/redux-react-native-i18n/master/react-native-logo.jpg" width="100%" />
 
-This package provides functionality of [redux-react-i18n](https://github.com/derzunov/redux-react-i18n) to React Native
+This package provides functionality of [redux-react-i18n](https://github.com/derzunov/redux-react-i18n) to React Native.
+
+The difference between this package and [redux-react-i18n](https://github.com/derzunov/redux-react-i18n) is in presentational component. It uses ```<Text> ``` from 'react-native' instead of ```<span>```
 
 ## Workers of all countries, unite!
 
