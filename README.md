@@ -110,12 +110,20 @@ const dictionaries = {
     'ru-RU': {
         'key_1': 'Первый дефолтный ключ',
         'key_2': [ '$Count', ' ', ['штучка','штучки','штучек']], // 1 штучка, 3 штучки, пять штучек
+        'key_3': {
+            'nested_1': 'Первый вложенный ключ',
+            'nested_2': 'Второй вложенный ключ',
+        },
         /* ... */
         /* Other keys */
     },
     'en-US': {
         'key_1': 'First default key',
         'key_2': [ '$Count', ' ', ['thing','things']], // 1 thing, 2 things, 153 things
+        'key_3': {
+            'nested_1': 'First nested key',
+            'nested_2': 'Second nested key',
+        },
     }
     /* ... */
     /* Other dictionaries */
@@ -153,6 +161,8 @@ import { Loc } from 'redux-react-native-i18n'
 <View>
     <Loc locKey="key_1"/> // => Первый дефолтный ключ
     <Loc locKey="key_2" number={7}/> // => 7 штучек
+    <Loc locKey="key_3.nested_1"/> // => Первый вложенный ключ
+    <Loc locKey="key_3.nested_2"/> // => Второй вложенный ключ
 </View>
 
 ```
